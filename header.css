@@ -5,6 +5,7 @@ body {
 #ad1 {
   display: flex;
   justify-content: center;
+  margin-bottom: 2vh;
 }
 #headerTop {
   display: flex;
