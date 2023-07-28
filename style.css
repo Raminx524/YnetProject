@@ -18,6 +18,9 @@ body {
   display: block;
   z-index: -1;
 }
+#ad2 img {
+  width: 14vw;
+}
 #flashNewsContainer {
   display: flex;
   flex-direction: row;
