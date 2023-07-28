@@ -1,3 +1,8 @@
 body {
   font-family: sans-serif;
 }
+#ad2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
