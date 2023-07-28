@@ -4,26 +4,27 @@
 }
 header {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
 }
 #headerTop {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  height: 10vh;
 }
 #mainlogo {
-  width: 15vw;
-}
-#rSideLinks {
-  display: flex;
-  justify-content: space-evenly;
-  width: 17vw;
+  width: 12vw;
+  max-height: 100%;
 }
 #rSideLinks img {
   height: 2vh;
 }
-#lSideLinks {
+.headerLinks {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 17vw;
+  align-items: flex-end;
 }
 #lSideLinks img {
   height: 2vh;
@@ -42,7 +43,6 @@ header {
   align-items: center;
   background-color: rgb(222, 26, 26);
   height: 3vh;
-  margin: 0 auto;
 }
 #navbar a {
   text-decoration: none;
