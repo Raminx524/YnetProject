@@ -11,12 +11,13 @@ body {
   margin: 0 auto;
   gap: 2vh;
 }
-/* #ad2 {
+#ad2 {
   position: absolute;
   top: 0;
   right: 0;
   display: block;
-} */
+  z-index: -1;
+}
 #flashNewsContainer {
   display: flex;
   flex-direction: row;
