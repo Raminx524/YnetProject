@@ -1,0 +1,39 @@
+.sports-and-econ {
+  display: flex;
+  margin-top: 16vh;
+  gap: 3vh;
+}
+.main-sports-eco-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2vh;
+}
+.side-sports-eco {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  font-size: 12px;
+}
+.main-sports-eco-items {
+  width: 190px;
+  font-size: 17.5px;
+  font-weight: bolder;
+}
+.main-sports-eco-items img {
+  height: 107px;
+  width: 190px;
+}
+.main-sports-eco {
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+  width: 47%;
+}
+.sports-economy {
+  width: 47.95%;
+}
+.side-sports-eco-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}

@@ -216,9 +216,10 @@ body {
   font-size: 12px;
 }
 .main-news-items {
-  width: 100%;
+  width: 190px;
   font-size: 18px;
   font-weight: bolder;
+  margin-left: 3vh;
 }
 .main-news-items img {
   height: 107px;
@@ -232,6 +233,7 @@ body {
 }
 #news {
   flex: 1;
+  width: 108vh;
 }
 .side-news-items {
   display: flex;
