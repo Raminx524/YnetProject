@@ -17,18 +17,11 @@ header {
   width: 12vw;
   max-height: 100%;
 }
-#rSideLinks img {
-  height: 2vh;
-}
 .headerLinks {
   display: flex;
   justify-content: space-between;
   width: 17vw;
   align-items: flex-end;
-}
-#lSideLinks img {
-  height: 2vh;
-  margin-left: 0.5vw;
 }
 #ynetspan {
   display: flex;
@@ -36,6 +29,16 @@ header {
   border: 1px solid #000;
   border-radius: 15px;
   padding: 2px;
+  gap: 3px;
+}
+.headerLinks span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5vh;
+}
+.icons {
+  height: 1.6vh;
 }
 #navbar {
   display: flex;
@@ -43,17 +46,22 @@ header {
   align-items: center;
   background-color: rgb(222, 26, 26);
   height: 3vh;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  font-weight: 520;
 }
 #navbar a {
   text-decoration: none;
   color: #fff;
 }
-#navbar a img {
+#searchNav img {
   height: 2vh;
 }
 #searchNav {
   display: flex;
   align-items: center;
+  gap: 2px;
 }
 #od {
   border: 1px solid #fff;

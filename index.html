@@ -18,37 +18,43 @@
       <header>
         <div id="headerTop">
           <div class="headerLinks">
-            <span><img src="icons/bell.svg" /> מבזקים </span>
-            <span><img src="icons/mail.svg" /> המייל האדום</span>
-            <span><img src="icons/sun.png" /> 33° תל אביב</span>
+            <span><img class="icons" src="icons/bell.svg" /> מבזקים </span>
+            <span><img class="icons" src="icons/mail.svg" /> המייל האדום</span>
+            <span
+              ><img class="icons" src="icons/sun.png" style="height: 2vh" /> 33°
+              תל אביב</span
+            >
           </div>
           <img id="mainlogo" src="assets/ynet_menu_logo_2x.png" />
           <div class="headerLinks">
-            <span><img src="icons/login.svg" /> התחברות</span>
+            <span><img class="icons" src="icons/login.svg" /> התחברות</span>
             <span id="ynetspan"
-              ><img src="icons/ynet+.svg" /> חודש ראשון ב- 5.90 ₪</span
+              ><img class="icons" src="icons/ynet+.svg" /> חודש ראשון ב- 5.90
+              ₪</span
             >
           </div>
         </div>
-        <div id="navbar">
-          <a href="link">ראשי</a>
-          <a href="link">+ynet</a>
-          <a href="link">חדשות</a>
-          <a href="link">24/7</a>
-          <a href="link">פודקאסטים</a>
-          <a href="link">ספורט</a>
-          <a href="link">כלכלה</a>
-          <a href="link">תרבות</a>
-          <a href="link">רכילות</a>
-          <a href="link">בריאות</a>
-          <a href="link">רכב</a>
-          <a href="link">דיגיטל</a>
-          <a href="link">לאשה</a>
-          <a href="link">אוכל</a>
-          <a id="od" href="link">עוד</a>
-          <a id="searchNav" href="link"><img src="assets/search.svg" />חיפוש</a>
-        </div>
       </header>
+      <div id="navbar">
+        <a href="link">ראשי</a>
+        <a href="link">+ynet</a>
+        <a href="link">חדשות</a>
+        <a href="link">24/7</a>
+        <a href="link">פודקאסטים</a>
+        <a href="link">ספורט</a>
+        <a href="link">כלכלה</a>
+        <a href="link">תרבות</a>
+        <a href="link">רכילות</a>
+        <a href="link">בריאות</a>
+        <a href="link">רכב</a>
+        <a href="link">דיגיטל</a>
+        <a href="link">לאשה</a>
+        <a href="link">אוכל</a>
+        <a id="od" href="link">עוד</a>
+        <div id="searchNav">
+          <img src="assets/search.svg" /><a href="link">חיפוש</a>
+        </div>
+      </div>
       <div id="ad2"><img src="assets/pic2.jpg" /></div>
       <div id="flashNewsContainer">
         <div id="flashnews">
@@ -68,10 +74,11 @@
             רכיבה על סוסים: נבחרת קפיצות הראווה של ישראל תשתתף באולימפיאדת פריז
           </div>
         </div>
-        <a href="link">לכל המבזקים</a>
+        <a href="link">לכל המבזקים <img src="icons/left-arrow.svg" /></a>
       </div>
       <div id="mainArticle">
         <div id="mainArticleDetails">
+          <span id="date">28.7.23 | י' באב התשפ"ג</span>
           <h1 class="mainTitle">
             "בתוך שנייה הכל נדלק. סתם ויכוח הופך ליריות" |<br />
             חליסה: סיפור מלחמה
@@ -149,14 +156,14 @@
                 סדרות מומלצות לאוגוסט: מריל סטריפ חשודה ברצח וספין-אוף
                 ל"המנדלוריאן"
               </div>
-              <span class="author">יעל אילן</span>
+              <span class="author">יעל אילן | 08:42 </span>
             </div>
             <div class="headlines-articles-items">
               <img src="assets/hottest-article1.jpg" />
               <div class="headlines-articles-text">
                 נחשף מהיכן הגיעו המשרתים של אצולת מאצ'ו פיצ'ו
               </div>
-              <span class="author">יוגב ישראלי</span>
+              <span class="author">יוגב ישראלי | 10:52</span>
             </div>
           </div>
         </div>
@@ -174,14 +181,14 @@
               <div class="headlines-articles-text">
                 מגלי הלם ועד חומצה היאלורונית: החידושים החמים לסקס טוב יותר
               </div>
-              <span class="author">עידן לושי</span>
+              <span class="author">עידן לושי | 06:35</span>
             </div>
             <div class="headlines-articles-items">
               <img src="assets/more-article3.jpg" />
               <div class="headlines-articles-text">
                 השחקנית שהפכה גם את האופנה לכלי במלחמה בפטריארכיה
               </div>
-              <span class="author">ארז עמירן</span>
+              <span class="author">ארז עמירן | 20:41</span>
             </div>
           </div>
         </div>
@@ -191,7 +198,9 @@
           <img src="assets/pic4.png" /><img src="assets/pic3.png" />
         </div>
         <div id="news">
-          <div class="headlines-header">חדשות</div>
+          <div class="headlines-header">
+            חדשות <a href="link">עוד בחדשות</a>
+          </div>
           <div class="main-news-container">
             <div id="main-news">
               <div class="main-news-items">
@@ -208,6 +217,20 @@
                   כל חסכונותיו
                 </p>
               </div>
+              <div class="main-news-items" id="weather-container">
+                <span>עכשיו</span>
+                <div id="icon-and-deg">
+                  <img src="icons/sun.png" />
+                  <h1>30°</h1>
+                  <span>תל אביב</span>
+                </div>
+                <p>בהיר, לח</p>
+                <div id="weather-author">
+                  <img src="icons/dani_roup.png" /><span
+                    >דני רופ | לתחזית המלאה</span
+                  >
+                </div>
+              </div>
             </div>
             <div class="side-news">
               <div class="side-news-items">
@@ -215,51 +238,53 @@
                   השבת ה-30 למחאה - והראשונה אחרי ביטול עילת הסבירות | אלו
                   חסימות הכבישים
                 </h1>
-                <span class="author">כתבי ynet</span>
+                <span class="author"> כתבי ynet</span>
               </div>
               <div class="side-news-items">
                 <h1>
                   רצף דיונים, וההכרעות שעלולות להוביל למשבר חוקתי | העתירות על
                   שולחן בג"ץ
                 </h1>
-                <span class="author">גלעד מורג</span>
+                <span class="author">גלעד מורג | 10:32</span>
               </div>
               <div class="side-news-items">
                 <h1>המתנגדים, ואלה שמסתייגים: ה"מורדים" בליכוד, והציטוטים</h1>
-                <span class="author">יובל קרני</span>
+                <span class="author">יובל קרני | 10:10</span>
               </div>
               <div class="side-news-items">
                 <h1>
                   נתניהו ידון במתיחות בגבול הצפון, נסראללה מאיים: "היזהרו מצעד
                   טיפשי"
                 </h1>
-                <span class="author">דניאל סלאמה</span>
+                <span class="author">דניאל סלאמה | 09:51</span>
               </div>
               <div class="side-news-items">
                 <h1>
                   השיעים מציינים את יום העשורא: שלשלאות, סכינים, דם ו"מוות
                   לישראל"
                 </h1>
-                <span class="author">ynet והסוכנויות</span>
+                <span class="author">ynet והסוכנויות | 09:40</span>
               </div>
               <div class="side-news-items">
                 <h1>
                   "אוהב אותך כחבר, אבל לא נילחם יחד" | מאחורי משבר הלכידות בצה"ל
                 </h1>
-                <span class="author">יואב זיתון</span>
+                <span class="author">יואב זיתון | אתמול | 20:42</span>
               </div>
               <div class="side-news-items">
                 <h1>
                   הרוגה בתאונה בצפון, רוכב קורקינט חשמלי נפצע קשה מפגיעת רכב
                   בראשל"צ
                 </h1>
-                <span class="author">ישראל מושקוביץ,מאיר תורג'מן</span>
+                <span class="author"
+                  >ישראל מושקוביץ,מאיר תורג'מן | אתמול | 20:26</span
+                >
               </div>
               <div class="side-news-items">
                 <h1>
                   מצלמת מפגינים במחאות, תחת מעקב המשטרה: תיבדק פעילות "עין הנץ"
                 </h1>
-                <span class="author">לירן תמרי, אדם קוטב</span>
+                <span class="author">לירן תמרי, אדם קוטב | אתמול | 11:20</span>
               </div>
             </div>
           </div>
@@ -267,7 +292,10 @@
       </section>
       <section class="sports-and-econ">
         <div class="sports-economy">
-          <div class="headlines-header">ספורט</div>
+          <div class="headlines-header">
+            ספורט
+            <a href="link">עוד בספורט</a>
+          </div>
           <div class="main-sports-eco-container">
             <div class="main-sports-eco">
               <div class="main-sports-eco-items">
@@ -278,35 +306,37 @@
             <div class="side-sports-eco">
               <div class="side-sports-eco-items">
                 <h1>מדהים: נשבר השיא ההיסטורי של מייקל פלפס</h1>
-                <span class="author">ספורט ynet</span>
+                <span class="author">ynet ספורט</span>
               </div>
               <div class="side-sports-eco-items">
                 <h1>חי מגביע הטוטו: הדרבי של פתח תקווה</h1>
-                <span class="author">תומר חבז</span>
+                <span class="author">תומר חבז | 21:51</span>
               </div>
               <div class="side-sports-eco-items">
                 <h1>בדקה ה-91: 1:1 בין הפועל ירושלים להפועל ת"א</h1>
-                <span class="author">גיא בן זיו</span>
+                <span class="author">גיא בן זיו | 21:03</span>
               </div>
               <div class="side-sports-eco-items">
                 <h1>ציון דרך היסטורי: עודד קוגוט ניצח בטור דוקולה</h1>
-                <span class="author">ספורט ynet</span>
+                <span class="author">ynet ספורט</span>
               </div>
               <div class="side-sports-eco-items">
                 <h1>
                   בכר לקראת פתיחת העונה בסרביה: "אוהב את הלחץ, מחוייב לאוהדים"
                 </h1>
-                <span class="author">ספורט ynet</span>
+                <span class="author">ynet ספורט</span>
               </div>
               <div class="side-sports-eco-items">
                 <h1>כואב הלב: הסיפור של ברוני ג'יימס צריך להדליק נורה אדומה</h1>
-                <span class="author">ציפי שמילוביץ</span>
+                <span class="author">ציפי שמילוביץ | אתמול | 23:01</span>
               </div>
             </div>
           </div>
         </div>
         <div class="sports-economy">
-          <div class="headlines-header">כלכלה וצרכנות</div>
+          <div class="headlines-header">
+            כלכלה וצרכנות<a href="link">עוד בכלכלה וצרכנות</a>
+          </div>
           <div class="main-sports-eco-container">
             <div class="main-sports-eco">
               <div class="main-sports-eco-items">
@@ -320,33 +350,33 @@
             <div class="side-sports-eco">
               <div class="side-sports-eco-items">
                 <h1>תקלת מייל ואינטרנט בסלקום</h1>
-                <span class="author">מירב קריסטל</span>
+                <span class="author">מירב קריסטל | 15:32</span>
               </div>
               <div class="side-sports-eco-items">
                 <h1>
                   הפחתת המס על הדלק תוגדל - המחיר צפוי לא לעלות גם באוגוסט
                 </h1>
-                <span class="author">גד ליאור</span>
+                <span class="author">גד ליאור | 15:20</span>
               </div>
               <div class="side-sports-eco-items">
                 <h1>
                   מה יקרה אם דירוג האשראי יירד והאם ההסתדרות תצטרף לשביתה הבאה?
                 </h1>
-                <span class="author">דן רבן, צחי שדה, רועי כ"ץ</span>
+                <span class="author">דן רבן, צחי שדה, רועי כ"ץ | 14:42</span>
               </div>
               <div class="side-sports-eco-items">
                 <h1>
                   גם סוכנות S&P מזהירה: המחלוקת סביב הרפורמה עלולה לפגוע בצמיחה
                 </h1>
-                <span class="author">גד ליאור</span>
+                <span class="author">גד ליאור | 13:02</span>
               </div>
               <div class="side-sports-eco-items">
                 <h1>איזה הכי משתלם? השוואת כרטיסי אשראי נטענים לילדים</h1>
-                <span class="author">מירב קריסטל</span>
+                <span class="author">מירב קריסטל | 12:13</span>
               </div>
               <div class="side-sports-eco-items">
                 <h1>אבנים מדברות: כך תלבישו את הבית עם שיש בסטייל</h1>
-                <span class="author">מורן רגב</span>
+                <span class="author">מורן רגב | 12:01</span>
               </div>
             </div>
           </div>

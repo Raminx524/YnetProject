@@ -7,18 +7,7 @@
   flex: 1;
 }
 #headlines-hottest {
-  width: 94.5%;
-}
-.headlines-header {
-  background-color: #1417ac;
-  color: #fff;
-  height: 3.5vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-right: 10px;
-  font-weight: bold;
-  font-size: 17px;
+  width: 92.8%;
 }
 .headlines-articles {
   display: flex;
@@ -46,5 +35,5 @@
 }
 #hottest {
   justify-content: space-between;
-  width: 96%;
+  width: 95.6%;
 }

@@ -22,8 +22,34 @@
 #main-news {
   display: flex;
   flex-direction: column;
-  gap: 10vh;
+  justify-content: space-between;
   width: 47%;
+}
+#weather-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#weather-container span {
+  font-size: 12px;
+  margin-right: 5px;
+}
+#icon-and-deg {
+  display: flex;
+  align-items: center;
+}
+#icon-and-deg img {
+  height: 30px;
+  width: 30px;
+  margin-left: 1vh;
+}
+#weather-author {
+  display: flex;
+  align-items: center;
+}
+#weather-author img {
+  width: 28px;
+  height: 28px;
 }
 #news {
   flex: 1;
