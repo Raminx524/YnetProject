@@ -1,0 +1,26 @@
+.outside-articles-item {
+  flex: 1;
+}
+.outside-header {
+  background-color: #b4010b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.out-article-details {
+  display: flex;
+  gap: 2vh;
+}
+.out-article-details img {
+  width: 190px;
+}
+.outside-articles-item a {
+  position: relative;
+  right: 60vh;
+  text-decoration: none;
+  font-weight: bold;
+}
+section.outsider-articles {
+  display: flex;
+  gap: 3vh;
+}
