@@ -1,22 +1,15 @@
 .headlinesTop {
   display: flex;
+  gap: 3vh;
   width: 100%;
-  justify-content: space-between;
 }
 .headlinesTop-category {
-  flex: 1;
-}
-#headlines-hottest {
-  width: 92.8%;
+  width: 100%;
 }
 .headlines-articles {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  gap: 10px;
-}
-#more-headlines {
-  gap: 5vh;
+  justify-content: space-between;
 }
 .headlines-articles-items {
   display: flex;
@@ -30,10 +23,7 @@
   font-size: 18px;
 }
 .headlines-articles-items img {
-  width: 190px;
+  width: 100%;
+  max-width: 190px;
   height: 107px;
-}
-#hottest {
-  justify-content: space-between;
-  width: 95.6%;
 }

@@ -11,16 +11,17 @@ header {
 #headerTop {
   display: flex;
   justify-content: space-between;
-  height: 10vh;
+  height: auto;
+  width: auto;
 }
 #mainlogo {
-  width: 12vw;
+  width: 190px;
   max-height: 100%;
 }
 .headerLinks {
   display: flex;
-  justify-content: space-between;
-  width: 17vw;
+  gap: 1.5vw;
+  width: 33%;
   align-items: flex-end;
 }
 #ynetspan {

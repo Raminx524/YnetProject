@@ -11,7 +11,7 @@ body {
   align-items: center;
   width: 70vw;
   margin: 0 auto;
-  gap: 2vw;
+  gap: 2vh;
 }
 .headlines-header {
   background-color: #1417ac;
@@ -45,6 +45,7 @@ body {
   display: flex;
   flex-direction: row;
   background-color: #f3f8f9;
+  height: auto;
 }
 #flashnews {
   display: flex;
@@ -57,7 +58,7 @@ body {
   border-left: dotted 1px #000;
   padding-left: 35px;
   margin-left: 35px;
-  height: 10vh;
+  height: auto;
   display: flex;
   align-items: center;
   font-weight: bold;
@@ -75,13 +76,13 @@ body {
 #mainArticle {
   display: flex;
   flex-direction: row;
-  height: 45vh;
+  height: auto;
   gap: 0;
 }
 #mainArticleDetails {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 3vh;
   flex: 1;
   width: 50%;
   max-width: 50%;
@@ -115,7 +116,8 @@ body {
 .headlines-and-ads {
   display: flex;
   flex-direction: row;
-  height: 55vh;
+  height: auto;
+  width: 100%;
 }
 .side-ad {
   flex: 1;

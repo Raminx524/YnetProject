@@ -7,13 +7,12 @@
 }
 .subArticleDetails {
   display: flex;
-  height: 113px;
+  height: auto;
   color: #fff;
 }
 
 .subArticleDetails img {
-  max-width: 200px;
-  margin-left: 1vw;
+  width: 190px;
 }
 
 .subArticleText {
@@ -21,6 +20,7 @@
   flex-direction: column;
   gap: 1vh;
   justify-content: center;
+  padding: 1vw;
 }
 
 .subArticleDetails p {

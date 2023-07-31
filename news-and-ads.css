@@ -56,7 +56,7 @@
   width: 108vh;
 }
 #news-and-ads {
-  height: 74vh;
+  height: auto;
 }
 #side-news-and-ads {
   gap: 20.3vh;

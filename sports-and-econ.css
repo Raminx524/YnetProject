@@ -2,11 +2,13 @@
   display: flex;
   margin-top: 1vh;
   gap: 3vh;
+  width: 100%;
 }
 .main-sports-eco-container {
   display: flex;
   flex-direction: row;
   margin-top: 2vh;
+  gap: 2vh;
 }
 .side-sports-eco {
   display: flex;
@@ -26,11 +28,6 @@
 .main-sports-eco {
   display: flex;
   flex-direction: column;
-  gap: 10vh;
-  width: 47%;
-}
-.sports-economy {
-  width: 47.95%;
 }
 .side-sports-eco-items {
   display: flex;
